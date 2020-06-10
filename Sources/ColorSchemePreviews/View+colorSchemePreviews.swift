@@ -6,7 +6,7 @@
 import SwiftUI
 
 public extension View {
-	/// Canvas previews for light and dark color schemes.
+	/// Generates previews for light and dark color schemes.
 	func colorSchemePreviews(previewLayout: PreviewLayout = .device) -> some View {
 		/// A workaround for `PreviewLayout`'s lack of `Equatable` conformance.
 		let previewLayoutIsSizeThatFits: Bool
