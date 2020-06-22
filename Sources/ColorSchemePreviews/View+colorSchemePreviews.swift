@@ -44,8 +44,6 @@ public extension View {
 	}
 }
 
-// MARK: - private extension View
-
 private extension View {
 	func previewDisplayName(from colorScheme: ColorScheme) -> String {
 		colorScheme == .light ? "Light Color Scheme" : "Dark Color Scheme"
